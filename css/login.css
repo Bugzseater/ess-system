@@ -30,11 +30,19 @@ body, html {
     background: rgba(255, 255, 255, 0.089);
     padding: 30px;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.gradient-text {
+    background: linear-gradient(to top, #0004ff, #ffffff); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 .left-column h1 {
