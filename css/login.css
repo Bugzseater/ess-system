@@ -37,6 +37,7 @@ body, html {
     justify-content: center;
 }
 
+
 .gradient-text {
     background: linear-gradient(to top, #0004ff, #ffffff); 
     -webkit-background-clip: text;
@@ -110,11 +111,18 @@ form button {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #b19cd9;
+    background: linear-gradient(45deg, #0004ff, #2d349b); 
     color: #fff;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-size: 0.8em;
+    transition: background 0.3s ease;
 }
+
+
+form button:hover {
+    background: linear-gradient(45deg, #4f00ff, #0004ff);
+}
+
 
 form button:hover {
     background-color: #9f86c0;
