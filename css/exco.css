@@ -12,7 +12,9 @@ body {
 .container {
     padding: 30px;
     flex-grow: 1;
-    overflow: auto;
+    overflow-y: auto; /* Enables vertical scrolling */
+    max-height: 100vh; /* Ensures the container does not exceed the viewport height */
+    box-sizing: border-box; /* Includes padding in the height calculation */
 }
 
 /* Header styles */

@@ -128,14 +128,15 @@
         <h2>ESS-UOK</h2>
         <div class="nav-links">
             <a href="../pages/dashboard.php">Dashboard</a>
-            <a href="../pages/exco.php">Exco Members</a>
+            <a href="../pages/exco.php">Exco '24</a>
             <a href="../pages/events.php">Events</a>
-
-            <a href="link3.php">Reports</a>
+            <a href="../pages/events.php">Members</a>
+            <a href="../pages/events.php">Attendance</a>
+            <a href="../pages/events.php">Finance</a>
         </div>
         <div class="bottom-buttons">
             <a href="settings.php">Settings</a>
-            <a href="logout.php" class="logout">Logout</a>
+            <a href="../index.html" class="logout">Logout</a>
         </div>
     </div>
 </body>
