@@ -127,8 +127,9 @@
     <div class="sidebar">
         <h2>ESS-UOK</h2>
         <div class="nav-links">
-            <a href="link1.php">Dashboard</a>
-            <a href="link2.php">Analytics</a>
+            <a href="../pages/dashboard.php">Dashboard</a>
+            <a href="../pages/exco.php">Exco Members</a>
+
             <a href="link3.php">Reports</a>
         </div>
         <div class="bottom-buttons">
