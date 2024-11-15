@@ -52,7 +52,7 @@ $result = $conn->query("SELECT * FROM exco");
 <body>
     <div class="container">
         <div class="header">
-            <h1>Exco Members</h1>
+            <h1>EXCO '24</h1>
             <button id="addButton">Add</button>
         </div>
 

@@ -129,6 +129,7 @@
         <div class="nav-links">
             <a href="../pages/dashboard.php">Dashboard</a>
             <a href="../pages/exco.php">Exco Members</a>
+            <a href="../pages/events.php">Events</a>
 
             <a href="link3.php">Reports</a>
         </div>

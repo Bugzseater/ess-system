@@ -4,7 +4,17 @@
 include '../include/sidebar.php';
 
 // Hardcoded data for the dashboard
-$totalEvents = 15;        // Example total events
+$conn = new mysqli('localhost', 'root', '', 'ess');
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Fetch counts dynamically
+$totalEventsQuery = "SELECT COUNT(*) AS total FROM events";
+$totalEventsResult = $conn->query($totalEventsQuery);
+$totalEvents = $totalEventsResult->fetch_assoc()['total'];
+
 $totalMembers = 120;      // Example total members
 $totalBalance = 4500.75;  // Example total account balance in USD
 ?>
